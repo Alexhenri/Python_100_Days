@@ -15,4 +15,7 @@ class Food(Turtle):
     def refresh(self):
         x = random.randrange(-280, 280, 10)
         y = random.randrange(-280, 280, 10)
-        self.goto(x , y)
+        self.goto(x, y)
+
+    def finish_game(self):
+        self.hideturtle()

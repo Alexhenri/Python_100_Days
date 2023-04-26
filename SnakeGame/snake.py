@@ -58,3 +58,8 @@ class Snake:
         self.segments.append(new_tail)
         self.tail = new_tail
 
+    def finish_game(self):
+        for segment in self.segments:
+            segment.hideturtle()
+
+
